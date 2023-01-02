@@ -1,6 +1,7 @@
 apply plugin: 'org.springframework.boot'
 
 dependencies {
+	implementation project( ':reactive-web')
 	implementation project( ':async-messages-senders')
     implementation project(':model')
     implementation project(':usecase')
